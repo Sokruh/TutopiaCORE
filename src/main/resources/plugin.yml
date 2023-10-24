@@ -1,3 +1,10 @@
 name: Tutopia
 version: '${project.version}'
 main: sogur.tutopia.Tutopia
+permissions:
+  Tutopia.use.Crafting:
+    default: op
+    description: ei
+  Tutopia.use.CraftingTable:
+    description: ei
+    default: op

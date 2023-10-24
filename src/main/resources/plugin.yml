@@ -1,0 +1,3 @@
+name: Tutopia
+version: '${project.version}'
+main: sogur.tutopia.Tutopia

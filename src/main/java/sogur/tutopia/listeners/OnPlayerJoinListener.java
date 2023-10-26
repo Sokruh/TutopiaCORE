@@ -1,6 +1,5 @@
 package sogur.tutopia.listeners;
 
-import com.destroystokyo.paper.Title;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Sound;
@@ -10,9 +9,12 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import sogur.tutopia.Tutopia;
 
-public class onPlayerJoinListener implements Listener {
+public class OnPlayerJoinListener implements Listener {
     private Tutopia plugin;
 
+    public OnPlayerJoinListener(Tutopia plugin) {
+        this.plugin = plugin;
+    }
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {

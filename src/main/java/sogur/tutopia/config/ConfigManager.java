@@ -53,4 +53,8 @@ public class ConfigManager {
         invcfg = YamlConfiguration.loadConfiguration(invfile);
         Bukkit.getServer().getLogger().info("§ainvs.yml reloaded");
     }
+
+    public static void reloadConfigs() {
+        Bukkit.getPluginManager().getPlugin("Tutopia").reloadConfig();
+    }
 }

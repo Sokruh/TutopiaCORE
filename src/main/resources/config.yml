@@ -1,0 +1,10 @@
+#Title joka tulee kun pelaaja joinaa, Värit on '&' merkillä!
+JoinTitle: '&cTervetuloa!'
+#alempi teksti titlessä
+JoinSubTitle: '&6:)'
+#numero, kuinka monta minecraft tickiä että title tulee näytölle
+JoinTitleFadeIn: 10
+#numero (minecraft ticks), kuinka kauan title pysyy näytöllä
+JoinTitleStay: 20
+#numero, kuinka monta minecraft tickiä että title lähtee näytöltä
+JoinTitleFadeOut: 10
